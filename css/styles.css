@@ -152,7 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
-.section .list {
+.section .link {
   text-decoration: none;
 }
 
@@ -160,13 +160,11 @@ body {
 .footer {
   background-color: var(--dark-bg-color);
   color: var(--primary-white-color);
+  font-size: 14px;
+  line-height: 1.71;
 }
 .footer .logo {
   color: var(--primary-white-color);
-}
-.footer {
-  font-size: 14px;
-  line-height: 1.71;
 }
 .footer .address,
 .footer .contacts {
