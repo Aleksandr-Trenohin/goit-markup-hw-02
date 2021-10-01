@@ -149,6 +149,7 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio .text {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.87;
 }
@@ -182,7 +183,7 @@ body {
   color: var(--accent-color);
 }
 
-/* common.css можно делать, можно не делать */
+/* common.css (типовые стили) можно делать, можно не делать */
 /* 1. Выбрать палитру цветов из макета
 
 белый цвет #FFFFFF
