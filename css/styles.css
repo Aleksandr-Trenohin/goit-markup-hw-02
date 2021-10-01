@@ -53,7 +53,7 @@ body {
 .menu-nav .link.current {
   color: var(--accent-color);
 }
-/* contacts (link НУЖНО только если это ссылки)*/
+/* contacts */
 .contacts .link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -111,7 +111,7 @@ body {
 }
 
 /* button */
-/* нужно ли переопределить шрифт кнопок */
+/* нужно ли переопределить шрифт кнопок? */
 .button {
   text-decoration: none;
   cursor: pointer;
@@ -184,7 +184,7 @@ body {
 }
 
 /* common.css (типовые стили) можно делать, можно не делать */
-/* 1. Выбрать палитру цветов из макета
+/* Палитра цветов из макета
 
 белый цвет #FFFFFF
 черный цвет #000000
