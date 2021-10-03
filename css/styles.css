@@ -76,7 +76,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-/* section НУЖНО скрыть заголовок во 2-й секции*/
+/* section */
 .section-title {
   color: var(--title-text-color);
   font-size: 36px;
