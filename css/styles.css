@@ -107,7 +107,7 @@ body {
 
 /* button */
 .button {
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   text-decoration: none;
   cursor: pointer;
 }
@@ -155,7 +155,6 @@ body {
 /* footer */
 .footer {
   background-color: var(--dark-bg-color);
-  color: var(--primary-white-color);
   font-size: 14px;
   line-height: 1.71;
 }
