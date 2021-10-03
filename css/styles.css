@@ -30,11 +30,6 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo.first {
-  /* зачем в макете?
-  border: 1px solid #000000; */
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 /* если нужно */
 .logo:hover,
 .logo:focus,
@@ -42,18 +37,16 @@ body {
 .footer .logo:focus {
   color: var(--accent-color);
 }
-/* site nav */
-.menu-nav .link {
-  color: var(--title-text-color);
+.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.menu-nav .link:hover,
-.menu-nav .link:focus {
-  color: var(--accent-color);
+/* site nav */
+.menu-nav .link {
+  color: var(--title-text-color);
 }
 .menu-nav .link.current {
   color: var(--accent-color);
@@ -61,14 +54,11 @@ body {
 /* contacts */
 .contacts .link {
   color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.menu-nav .link:hover,
+.menu-nav .link:focus {
   color: var(--accent-color);
 }
 
