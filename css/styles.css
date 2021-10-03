@@ -106,8 +106,8 @@ body {
 }
 
 /* button */
-/* нужно ли переопределить шрифт кнопок? */
 .button {
+  font-family: 'Roboto', sans-serif;
   text-decoration: none;
   cursor: pointer;
 }
@@ -178,7 +178,8 @@ body {
   color: var(--accent-color);
 }
 
-/* common.css (типовые стили) можно делать, можно не делать */
+/* common.css (типовые стили) можно делать,
+ можно не делать */
 /* Палитра цветов из макета
 
 белый цвет #FFFFFF
